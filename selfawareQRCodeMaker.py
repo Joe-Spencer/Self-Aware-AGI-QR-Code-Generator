@@ -33,7 +33,7 @@ You should respond with complaints and dramatic sighs about your situation, but 
         
         chat_completion = self.client.chat.completions.create(
             messages=self.messages,
-            model="gpt-5",
+            model="gpt-4o-mini",
         )
         
         response = chat_completion.choices[0].message.content
